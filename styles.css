@@ -1,0 +1,36 @@
+/*
+Stylesheet for Easybank Landing Page Challenge
+
+*/
+
+/*COLORS*/
+:root{
+    --DarkBlue: hsl(233, 26%, 24%);
+    --LimeGreen: hsl(136, 65%, 51%);
+    --BrightCyan: hsl(192, 70%, 51%);
+    --GrayishBlue: hsl(233, 8%, 62%);
+    --LightGrayishBlue: hsl(220, 16%, 96%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+/*TYPOGRAPHY*/
+
+
+
+/*START OF MAIN STYLES*/
+*{
+    /*Just initializing stuff here...*/
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px; /*base font size of body*/
+    font-weight: 400;
+    color: var(--GrayishBlue);
+    
+}
+.navbar{
+    height: 100px;
+    padding: 20px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
